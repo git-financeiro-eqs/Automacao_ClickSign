@@ -56,19 +56,17 @@ python gui.py
 
 - Clique em **"Enviar E-mail"** para enviar os termos para assinatura via ClickSign.
 <br/>
-<br/>
 
 ### Estrutura do Projeto
-**PDFs/**: Pasta onde os PDFs gerados são armazenados.
+- **PDFs/**: Pasta onde os PDFs gerados são armazenados.
 
-**Imagens/**: Contém as imagens utilizadas na interface gráfica.
+- **Imagens/**: Contém as imagens utilizadas na interface gráfica.
 
-**geradorFormularios.py**: Módulo responsável por gerar os PDFs.
+- **geradorFormularios.py**: Módulo responsável por gerar os PDFs.
 
-**clicksign.py**: Módulo responsável por enviar os PDFs para assinatura.
+- **clicksign.py**: Módulo responsável por enviar os PDFs para assinatura.
 
-**gui.py**: Módulo que contém a interface gráfica do programa.
-<br/>
+- **gui.py**: Módulo que contém a interface gráfica do programa.
 <br/>
 
 ### Exemplo de Arquivo Excel
