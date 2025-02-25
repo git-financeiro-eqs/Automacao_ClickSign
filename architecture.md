@@ -42,7 +42,6 @@ O programa é dividido em três módulos principais, cada um com uma responsabil
         <ul>
           <li>Automatizar o login na plataforma ClickSign.</li>
           <li>Enviar os PDFs para assinatura via e-mail.</li>
-          <li>Gerenciar o fluxo de envio e confirmação.</li>
         </ul>
       </td>
     </tr>
