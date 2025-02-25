@@ -1,6 +1,6 @@
 # Automação de Termo de Recebimento
 
-Este projeto é uma automação para gerar e enviar termos de recebimento de cartões corporativos para funcionários de uma empresa. O programa é composto por três módulos principais:
+Este projeto é uma automação para gerar e enviar termos de recebimento de cartões corporativos para os funcionários da empresa. O programa é composto por três módulos principais:
 
 - **geradorFormularios.py**: Gera PDFs personalizados com os termos de recebimento para cada funcionário.
 - **clicksign.py**: Envia os PDFs gerados para assinatura via e-mail utilizando a plataforma ClickSign.
