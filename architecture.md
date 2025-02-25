@@ -52,5 +52,5 @@ O programa é dividido em três módulos principais, cada um com uma responsabil
         v                           v                           v
 +-------------------+       +-------------------+       +-------------------+
 |   Entrada de      |       |   Geração de      |       |   Envio de        |
-|   Dados (Excel e data)   |       |   PDFs (PDFs/)    |       |   E-mails (ClickSign)|
+|   Dados (Excel e data)    |   PDFs (PDFs/)    |       |   E-mails (ClickSign)|
 +-------------------+       +-------------------+       +-------------------+
