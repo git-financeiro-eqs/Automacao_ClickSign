@@ -25,24 +25,32 @@ Este projeto é uma automação para gerar e enviar termos de recebimento de car
 ## Instalação
 
 1. Clone o repositório:
+ ```bash
+ git clone https://github.com/seu-usuario/automacao-termo-recebimento.git
+ cd automacao-termo-recebimento
+```
+<br/>
 
-   ```bash
-   git clone https://github.com/seu-usuario/automacao-termo-recebimento.git
-   cd automacao-termo-recebimento
 Instale as dependências:
 
-bash
+```bash
 Copy
 pip install -r requirements.txt
+```
+
 Certifique-se de ter o ChromeDriver instalado e configurado para o Selenium.
 
-Uso
+### Uso
 Execute o programa:
 
-bash
+```bash
 Copy
 python gui.py
-Na interface gráfica:
+```
+<br/>
+<br/>
+
+### Na interface gráfica:
 
 Insira a data no formato DD/MM/AAAA.
 
@@ -51,8 +59,10 @@ Selecione o arquivo Excel contendo os dados dos funcionários.
 Clique em "Gerar PDFs" para criar os termos de recebimento.
 
 Clique em "Enviar E-mail" para enviar os termos para assinatura via ClickSign.
+<br/>
+<br/>
 
-Estrutura do Projeto
+### Estrutura do Projeto
 PDFs/: Pasta onde os PDFs gerados são armazenados.
 
 Imagens/: Contém as imagens utilizadas na interface gráfica.
@@ -62,8 +72,10 @@ geradorFormularios.py: Módulo responsável por gerar os PDFs.
 clicksign.py: Módulo responsável por enviar os PDFs para assinatura.
 
 gui.py: Módulo que contém a interface gráfica do programa.
+<br/>
+<br/>
 
-Exemplo de Arquivo Excel
+### Exemplo de Arquivo Excel
 O arquivo Excel deve conter as seguintes colunas:
 
 Nome	CPF	Email	Matrícula
