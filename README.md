@@ -7,7 +7,6 @@ Este projeto é uma automação para gerar e enviar termos de recebimento de car
 - **gui.py**: Interface gráfica para interação com o usuário, permitindo a seleção de arquivos e execução das funcionalidades.
 <br/>
 <br/>
-
 ## Requisitos
 
 - **Python 3.x**
