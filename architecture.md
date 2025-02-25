@@ -8,12 +8,14 @@ O programa é dividido em três módulos principais, cada um com uma responsabil
 
 ### 1. Interface Gráfica (`gui.py`)
 <br/>
+
 - **Responsabilidade**: Interagir com o usuário, coletando dados e acionando as funcionalidades dos outros módulos.
 - **Tecnologia Utilizada**: Utiliza a biblioteca `tkinter` para criar a interface gráfica.
 <br/>
 
 ### 2. Geração de PDFs (`geradorFormularios.py`)
 <br/>
+
 - **Responsabilidade**: Gerar os termos de recebimento em formato PDF para cada funcionário.
 - **Tecnologia Utilizada**: Utiliza a biblioteca `reportlab` para criar os PDFs com base em um template pré-definido.
 - **Armazenamento**: Os PDFs são armazenados na pasta `PDFs/`.
@@ -21,6 +23,7 @@ O programa é dividido em três módulos principais, cada um com uma responsabil
 
 ### 3. Envio de E-mails (`clicksign.py`)
 <br/>
+
 - **Responsabilidade**: Enviar os PDFs gerados para assinatura via e-mail utilizando a plataforma ClickSign.
 - **Tecnologia Utilizada**: Utiliza a biblioteca `selenium` para automatizar o processo de login e envio de documentos na plataforma ClickSign.
 
