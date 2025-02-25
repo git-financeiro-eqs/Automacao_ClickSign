@@ -1,4 +1,4 @@
-# Automação de Termo de Recebimento
+# Automação ClickSign
 
 Este projeto é uma automação para gerar e enviar termos de recebimento de cartões corporativos para os funcionários da empresa. O programa é composto por três módulos principais:
 
