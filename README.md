@@ -38,8 +38,6 @@ Copy
 pip install -r requirements.txt
 ```
 
-Certifique-se de ter o ChromeDriver instalado e configurado para o Selenium.
-
 ### Uso
 Execute o programa:
 
@@ -52,32 +50,30 @@ python gui.py
 
 ### Na interface gráfica:
 
-Insira a data no formato DD/MM/AAAA.
+Insira a data no formato **DD/MM/AAAA**.
 
 Selecione o arquivo Excel contendo os dados dos funcionários.
 
-Clique em "Gerar PDFs" para criar os termos de recebimento.
+Clique em **"Gerar PDFs"** para criar os termos de recebimento.
 
-Clique em "Enviar E-mail" para enviar os termos para assinatura via ClickSign.
+Clique em **"Enviar E-mail"** para enviar os termos para assinatura via ClickSign.
 <br/>
 <br/>
 
 ### Estrutura do Projeto
-PDFs/: Pasta onde os PDFs gerados são armazenados.
+**PDFs/**: Pasta onde os PDFs gerados são armazenados.
 
-Imagens/: Contém as imagens utilizadas na interface gráfica.
+**Imagens/**: Contém as imagens utilizadas na interface gráfica.
 
-geradorFormularios.py: Módulo responsável por gerar os PDFs.
+**geradorFormularios.py**: Módulo responsável por gerar os PDFs.
 
-clicksign.py: Módulo responsável por enviar os PDFs para assinatura.
+**clicksign.py**: Módulo responsável por enviar os PDFs para assinatura.
 
-gui.py: Módulo que contém a interface gráfica do programa.
+**gui.py**: Módulo que contém a interface gráfica do programa.
 <br/>
 <br/>
 
 ### Exemplo de Arquivo Excel
 O arquivo Excel deve conter as seguintes colunas:
 
-Nome	CPF	Email	Matrícula
-João Silva	12345678901	joao.silva@email.com	12345
-Maria Souza	98765432109	maria.souza@email.com	67890
+<table> <thead> <tr> <th>Nome</th> <th>CPF</th> <th>Email</th> <th>Matrícula</th> </tr> </thead> <tbody> <tr> <td>João Silva</td> <td>12345678901</td> <td>joao.silva@email.com</td> <td>12345</td> </tr> <tr> <td>Maria Souza</td> <td>98765432109</td> <td>maria.souza@email.com</td> <td>67890</td> </tr> </tbody> </table> 
