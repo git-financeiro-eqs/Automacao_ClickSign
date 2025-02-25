@@ -1,6 +1,8 @@
 # Arquitetura do Projeto
 <br/>
 
+Este projeto é uma automação baseada em Selenium para interação com páginas web. Ele possui uma arquitetura modular, separando as responsabilidades em diferentes módulos para facilitar a manutenção e escalabilidade. Seu estilo de codificação é procedural modular.
+<br/>
 O programa é dividido em três módulos principais, cada um com uma responsabilidade específica:
 <br/>
 <br/>
