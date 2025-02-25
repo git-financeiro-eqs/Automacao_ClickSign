@@ -50,7 +50,7 @@ O programa é dividido em três módulos principais, cada um com uma responsabil
     </tr>
   </tbody>
 </table>
----
+
 <br/>
 
 ## Fluxo de Execução
