@@ -25,7 +25,6 @@ Este projeto é uma automação para gerar e enviar termos de recebimento de car
 1. Clone o repositório ou baixe o arquivo ZIP do programa:
  ```bash
  https://github.com/git-financeiro-eqs/Automacao_ClickSign.git
- cd automacao-termo-recebimento
 ```
 <br/>
 
