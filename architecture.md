@@ -1,5 +1,4 @@
 # Arquitetura do Projeto
-<br/>
 
 ## Visão Geral
 <br/>
