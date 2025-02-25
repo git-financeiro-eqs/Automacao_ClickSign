@@ -37,20 +37,3 @@ O programa é dividido em três módulos principais, cada um com uma responsabil
 3. Ao clicar em **"Enviar E-mail"**, o módulo `clicksign.py` é acionado, enviando os PDFs para assinatura via e-mail utilizando a plataforma ClickSign.
 
 ---
-<br/>
-
-## Diagrama de Arquitetura
-
-```plaintext
-+-------------------+       +-------------------+       +-------------------+
-|   Interface       |       |   Geração de      |       |   Envio de        |
-|   Gráfica         |       |   PDFs            |       |   E-mails         |
-|   (gui.py)        |       |   (geradorFormularios.py) |   (clicksign.py)  |
-+-------------------+       +-------------------+       +-------------------+
-        |                           |                           |
-        |                           |                           |
-        v                           v                           v
-+-------------------+       +-------------------+       +-------------------+
-|   Entrada de      |       |   Geração de      |       |   Envio de        |
-|   Dados (Excel e data)    |   PDFs (PDFs/)    |       |   E-mails (ClickSign)|
-+-------------------+       +-------------------+       +-------------------+
