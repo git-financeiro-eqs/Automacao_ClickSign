@@ -48,13 +48,13 @@ python gui.py
 
 ### Na interface gráfica:
 
-- `Insira a data no formato **DD/MM/AAAA**.`
+- Insira a data no formato **DD/MM/AAAA**.
 
-- `Selecione o arquivo Excel contendo os dados dos funcionários.`
+- Selecione o arquivo Excel contendo os dados dos funcionários.
 
-- `Clique em **"Gerar PDFs"** para criar os termos de recebimento.`
+- Clique em **"Gerar PDFs"** para criar os termos de recebimento.
 
-- `Clique em **"Enviar E-mail"** para enviar os termos para assinatura via ClickSign.`
+- Clique em **"Enviar E-mail"** para enviar os termos para assinatura via ClickSign.
 <br/>
 <br/>
 
