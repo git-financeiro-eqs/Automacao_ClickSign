@@ -1,6 +1,4 @@
 # Arquitetura do Projeto
-
-## Visão Geral
 <br/>
 
 O programa é dividido em três módulos principais, cada um com uma responsabilidade específica:
