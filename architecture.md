@@ -25,7 +25,7 @@ O programa é dividido em três módulos principais, cada um com uma responsabil
       </td>
     </tr>
     <tr>
-      <td><strong>Geração de PDFs (geradorFormularios.py)</strong></td>
+      <td><strong>Geração de PDFs (geradorTermos.py)</strong></td>
       <td>Módulo responsável por gerar os termos de recebimento em formato PDF para cada funcionário.</td>
       <td>
         <ul>
@@ -53,7 +53,7 @@ O programa é dividido em três módulos principais, cada um com uma responsabil
 ## Fluxo de Execução
 
 1. O usuário insere a data e seleciona o arquivo Excel contendo os dados dos funcionários na interface gráfica.
-2. Ao clicar em **"Gerar PDFs"**, o módulo `geradorFormularios.py` é acionado, gerando os PDFs e armazenando-os na pasta `PDFs/`.
+2. Ao clicar em **"Gerar PDFs"**, o módulo `geradorTermos.py` é acionado, gerando os PDFs e armazenando-os na pasta `PDFs/`.
 3. Ao clicar em **"Enviar E-mail"**, o módulo `clicksign.py` é acionado, enviando os PDFs para assinatura via e-mail utilizando a plataforma ClickSign.
 
 ---
