@@ -2,7 +2,7 @@
 
 Este projeto é uma automação para gerar e enviar termos de recebimento de cartões corporativos para os funcionários da empresa. O programa é composto por três módulos principais:
 
-- **geradorFormularios.py**: Gera PDFs personalizados com os termos de recebimento para cada funcionário.
+- **geradorTermos.py**: Gera PDFs personalizados com os termos de recebimento para cada funcionário.
 - **clicksign.py**: Envia os PDFs gerados para assinatura via e-mail utilizando a plataforma ClickSign.
 - **gui.py**: Interface gráfica para interação com o usuário, permitindo a seleção de arquivos e execução das funcionalidades.
 <br/>
@@ -61,7 +61,7 @@ python gui.py
 
 - **Imagens/**: Contém as imagens utilizadas na interface gráfica.
 
-- **geradorFormularios.py**: Módulo responsável por gerar os PDFs.
+- **geradorTermos.py**: Módulo responsável por gerar os PDFs.
 
 - **clicksign.py**: Módulo responsável por enviar os PDFs para assinatura.
 
