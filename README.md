@@ -19,7 +19,6 @@ Este projeto é uma automação para gerar e enviar termos de recebimento de car
   - `reportlab`
   - `tkinter`
 <br/>
-<br/>
 
 ## Instalação
 
@@ -30,7 +29,7 @@ Este projeto é uma automação para gerar e enviar termos de recebimento de car
 ```
 <br/>
 
-Instale as dependências:
+2. Instale as dependências:
 
 ```bash
 Copy
