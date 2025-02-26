@@ -15,7 +15,7 @@ def enviar_emails(caminho_arq):
     
     * É importante pontuar que, por algum motivo, não sei se é algum mecanismo de segurança da interface Web,
     toda vez que precisei executar essa automação (algo que ocorre uma vez a cada 4 ~ 5 meses),
-    precisei mapear novamente todos os XPATHs. E o estranho é que eles não mudaram de um mês pro outro, mas só assim pra fazer funcionar.*
+    precisei mapear novamente todos os XPATHs. E o estranho é que eles não mudaram de um mês pro outro, mas só assim pra funcionar.*
     """
 
     df = pd.read_excel(caminho_arq, dtype={3:str})
