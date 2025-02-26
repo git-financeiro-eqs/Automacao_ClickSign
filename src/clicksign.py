@@ -12,6 +12,7 @@ import pandas as pd
 def enviar_emails(caminho_arq):
     """
     Função que realiza a integração com a interface Web da ClickSign via raspagem de tela através da biblioteca Selenium.
+    
     * É importante pontuar que, por algum motivo, não sei se é algum mecanismo de segurança da interface Web,
     toda vez que precisei executar essa automação (algo que ocorre uma vez a cada 4 ~ 5 meses),
     precisei mapear novamente todos os XPATHs. E o estranho é que eles não mudaram de um mês pro outro, mas só assim pra fazer funcionar.*
@@ -206,5 +207,4 @@ def enviar_emails(caminho_arq):
     sleep(3)
     driver.quit()
 
-
-       
+    
