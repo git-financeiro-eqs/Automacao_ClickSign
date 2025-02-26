@@ -17,7 +17,7 @@ Este projeto é uma automação para gerar e enviar termos de recebimento de car
   - `pyperclip`
   - `pyautogui`
   - `reportlab`
-  - `tkinter`
+  - `bibliotecas nativas`
 <br/>
 
 ## Instalação
