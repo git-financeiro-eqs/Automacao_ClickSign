@@ -53,7 +53,7 @@ python gui.py
 
 - Clique em **"Gerar PDFs"** para criar os termos de recebimento.
 
-- Clique em **"Enviar E-mail"** para enviar os termos para assinatura via ClickSign.
+- Após o programa gerar os PDFs, clique em **"Enviar E-mail"** para enviar os termos para assinatura via ClickSign.
 <br/>
 
 ### Estrutura do Projeto
