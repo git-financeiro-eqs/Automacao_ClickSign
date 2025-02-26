@@ -71,4 +71,4 @@ python gui.py
 ### Exemplo de Arquivo Excel
 O arquivo Excel deve conter as seguintes colunas:
 
-<table> <thead> <tr> <th>Nome</th> <th>CPF</th> <th>Email</th> <th>Matrícula</th> </tr> </thead> <tbody> <tr> <td>João Silva</td> <td>12345678901</td> <td>joao.silva@email.com</td> <td>12345</td> </tr> <tr> <td>Maria Souza</td> <td>98765432109</td> <td>maria.souza@email.com</td> <td>67890</td> </tr> </tbody> </table> 
+<table> <thead> <tr> <th>Colaborador</th> <th>CPF</th> <th>E-mail</th> <th>Matrícula</th> </tr> </thead> <tbody> <tr> <td>João Silva</td> <td>12345678901</td> <td>joao.silva@email.com</td> <td>12345</td> </tr> <tr> <td>Maria Souza</td> <td>98765432109</td> <td>maria.souza@email.com</td> <td>67890</td> </tr> </tbody> </table> 
