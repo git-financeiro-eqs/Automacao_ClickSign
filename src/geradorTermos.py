@@ -13,7 +13,7 @@ def gerar_termos(caminho_arq, data):
     """
     Função que gera os termos de recebimento seguindo um template padrão. 
     Essa função cria uma pasta chamada "PDFs/" dentro da pasta do programa, e nela é armazenado todos os arquivos PDF criados
-    para cada CPF presente na tabela inserida pelo operador.
+    para cada colaborador na tabela inserida pelo operador.
 
     """
     arquivos = []
