@@ -17,7 +17,7 @@ def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
 
-def validarEntrada(P):
+def validar_entrada(P):
     """
     Valida a entrada da data, garantindo que tenha exatamente 8 caracteres.
 
@@ -33,7 +33,7 @@ def validarEntrada(P):
     return True
 
 
-def selecionarArquivo():
+def selecionar_arquivo():
     """
     Abre uma janela de seleção de arquivos para escolher um arquivo Excel.
 
@@ -43,7 +43,7 @@ def selecionarArquivo():
     caminho_arq = askopenfilename(title="Selecione um arquivo Excel")
 
 
-def gerarPdf():
+def gerar_pdf():
     """
     Gera os arquivos PDF a partir dos dados do arquivo Excel selecionado.
     """
@@ -52,7 +52,7 @@ def gerarPdf():
     if data == "":
         return messagebox.showerror("Erro!", "Preencha o campo data.")
     if caminho_arq == "":
-        selecionarArquivo()
+        selecionar_arquivo()
     geradorTermos.gerar_termos(caminho_arq, data)
 
 
@@ -62,7 +62,7 @@ window.geometry("535x270")
 window.configure(bg = "#FFFFFF")
 window.title("Automação Termo de Recebimento")
 
-vcmd = (window.register(validarEntrada), '%P')
+vcmd = (window.register(validar_entrada), '%P')
 
 canvas = Canvas(
     window,
@@ -119,7 +119,7 @@ button_3 = Button(
     image=button_image_3,
     borderwidth=1,
     highlightthickness=0,
-    command=lambda: selecionarArquivo(),
+    command=lambda: selecionar_arquivo(),
     relief="solid",
     cursor="hand2",
     
@@ -136,7 +136,7 @@ button_1 = Button(
     bg = "#968484",
     borderwidth=1,
     highlightthickness=0,
-    command=lambda: gerarPdf(),
+    command=lambda: gerar_pdf(),
     relief="ridge",
     cursor="hand2",
     disabledforeground = "#968484",
